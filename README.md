@@ -1,29 +1,5 @@
-# test-bug
+## Description
+Vue test utils throws an error when you try and stub an async component. This is a minimal repo to reproduce that.
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Instructions
+Clone and run `npm run test:unit`, you'll see the error `TypeError: Cannot read property 'attrs' of undefined`.
